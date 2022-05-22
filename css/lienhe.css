@@ -1,0 +1,211 @@
+
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial;
+	font-size: 14px;
+}
+.wrapper{
+	width: 1200px;
+	margin: auto;
+}
+.header .header-top{	
+	display: flex;	
+	justify-content: space-between;	
+	font-weight: bold;		
+	background: url('../images/background/header-top.jpg');
+}
+.header .header-top ul{
+	margin: 0px;
+	padding: 0px;	
+	list-style: none;	
+}
+.header .header-top ul li{
+	line-height: 30px;
+}
+.header .header-top ul li a{
+	color: black;
+	text-decoration: none;
+}
+.header .header-top .left li{
+	padding-left: 20px;	
+}
+.header .header-top .right{
+	display: flex;	
+}
+.header .header-top .right li{
+	padding-right: 20px;
+}
+.header .header-bottom ul{
+	display: flex;
+	justify-content: space-between;
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+	line-height: 98px;	
+	background: url('../images/banner/banner.jpg');
+	background-repeat: no-repeat;
+}
+.header .header-bottom ul li img{
+	height: 98px;	
+}
+.header .header-bottom ul .search select{
+	width: 70px;
+	height: 30px;
+	border-radius: 10px;
+	background-color: #cce7e8;
+}
+.header .header-bottom ul .search select option{
+	padding: 10px;
+}
+.header .header-bottom ul .search input{
+	width: 400px;
+	height: 30px;
+	border-radius: 10px;
+	background-color: #cce7e8;
+}
+.header .header-bottom ul .search a{
+	color: grey;
+	margin-left: -30px;	
+	font-size: 20px;
+}
+.header .header-bottom ul .hotline{
+	margin-right: 20px;
+}
+.header .header-bottom ul .right a{
+	color: #ebb678;
+	font-weight: bold;
+	font-size: 20px;
+	text-decoration: none;	
+}
+.header .header-bottom ul .right a i{
+	padding-right: 10px;
+}
+#toggle{	
+	color: black;	
+	padding: 0px 10px;
+	font-size: 20px;
+	cursor: pointer;
+	display: none;
+	border-bottom: 1px solid grey;
+}
+nav > ul{
+	display: flex;
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	background-color: #DC6C16;
+}
+nav > ul > li{
+	position: relative;
+}
+nav > ul > li > a{
+	line-height: 50px;	
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 16px;
+	color: black;
+	border-left: 2px solid #A55618;
+	padding-right: 20px;
+	padding-left: 20px;	
+}
+nav > ul > li .a{
+	border-left: 0px;
+}
+nav > ul > li > ul{
+	display: none;
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+	width: 150px;
+	background-color: #C57439;
+	border: 1px solid grey;	
+	position: absolute;
+	z-index: 2;
+}
+nav > ul > li > ul > li{
+	padding: 10px;
+	border-bottom: 1px solid grey;
+}
+nav > ul > li > ul > li > a{
+	text-decoration: none;
+	color: black;
+	font-size: 16px;
+}
+nav > ul > li:hover ul{
+	display: block;
+}
+
+main .box{
+    margin: 20px;  
+    font-size: 16px;  
+}
+main .box .box1{
+    padding: 0px;
+}
+main .box .box1 h2{
+    font-weight: bold;
+}
+main .box .box1 span{
+    font-weight: bold;
+}
+main .box .box2{
+   margin-top: 70px;  
+   margin-bottom: 20px;
+}
+main .box .box2 h4{
+    text-align: center;
+    font-weight: bold;
+}
+main .box .box2 .form p{
+    margin: 0px;
+    padding-bottom: 5px;
+}
+main .box .box2 .form .input{
+    margin-bottom: 8px;
+    width: 100%;
+    line-height: 30px;
+    background-color: #d9dbdb;
+    border: 1px solid #aaacac;
+}
+main .box .box2 .form .submit{
+    text-align: center;
+    margin-top: 10px;    
+}
+main .box .box2 .form .submit a{
+    text-decoration: none;
+    background-color: #DC6C16;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 5px;
+}
+
+.footer{
+	background-color: #03131C;
+}
+.footer ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	color: grey;
+	padding-top: 10px;
+	padding-left: 20px;
+}
+.footer ul h6{
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+.footer ul li ul{
+	padding: 0px;
+}
+.footer ul li ul li{
+	padding-bottom: 10px;
+}
+.footer ul li ul li a{
+	text-decoration: none;
+	color: grey;
+}
+.footer ul .row2, .row3{
+	padding-left: 160px;
+}
+

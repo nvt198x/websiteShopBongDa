@@ -1,0 +1,270 @@
+
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial;
+	font-size: 14px;
+}
+.wrapper{
+	width: 1200px;
+	margin: auto;
+}
+.header .header-top{	
+	display: flex;	
+	justify-content: space-between;	
+	font-weight: bold;		
+	background: url('../images/background/header-top.jpg');
+}
+.header .header-top ul{
+	margin: 0px;
+	padding: 0px;	
+	list-style: none;	
+}
+.header .header-top ul li{
+	line-height: 30px;
+}
+.header .header-top ul li a{
+	color: black;
+	text-decoration: none;
+}
+.header .header-top .left li{
+	padding-left: 20px;	
+}
+.header .header-top .right{
+	display: flex;	
+}
+.header .header-top .right li{
+	padding-right: 20px;
+}
+.header .header-bottom ul{
+	display: flex;
+	justify-content: space-between;
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+	line-height: 98px;	
+	background: url('../images/banner/banner.jpg');
+	background-repeat: no-repeat;
+}
+.header .header-bottom ul li img{
+	height: 98px;	
+}
+.header .header-bottom ul .search select{
+	width: 70px;
+	height: 30px;
+	border-radius: 10px;
+	background-color: #cce7e8;
+}
+.header .header-bottom ul .search select option{
+	padding: 10px;
+}
+.header .header-bottom ul .search input{
+	width: 400px;
+	height: 30px;
+	border-radius: 10px;
+	background-color: #cce7e8;
+}
+.header .header-bottom ul .search a{
+	color: grey;
+	margin-left: -30px;	
+	font-size: 20px;
+}
+.header .header-bottom ul .hotline{
+	margin-right: 20px;
+}
+.header .header-bottom ul .right a{
+	color: #ebb678;
+	font-weight: bold;
+	font-size: 20px;
+	text-decoration: none;	
+}
+.header .header-bottom ul .right a i{
+	padding-right: 10px;
+}
+#toggle{	
+	color: black;	
+	padding: 0px 10px;
+	font-size: 20px;
+	cursor: pointer;
+	display: none;
+	border-bottom: 1px solid grey;
+}
+nav > ul{
+	display: flex;
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	background-color: #DC6C16;
+}
+nav > ul > li{
+	position: relative;
+}
+nav > ul > li > a{
+	line-height: 50px;	
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 16px;
+	color: black;
+	border-left: 2px solid #A55618;
+	padding-right: 20px;
+	padding-left: 20px;	
+}
+nav > ul > li .a{
+	border-left: 0px;
+}
+nav > ul > li > ul{
+	display: none;
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+	width: 150px;
+	background-color: #C57439;
+	border: 1px solid grey;	
+	position: absolute;
+	z-index: 2;
+}
+nav > ul > li > ul > li{
+	padding: 10px;
+	border-bottom: 1px solid grey;
+}
+nav > ul > li > ul > li > a{
+	text-decoration: none;
+	color: black;
+	font-size: 16px;
+}
+nav > ul > li:hover ul{
+	display: block;
+}
+main .click{	
+	position: relative;
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+main .click h4{	
+	width: 600px;
+	height: 50px;
+	margin: auto;
+	padding-top: 7px;
+	text-align: center;
+	font-size: 30px;	
+	background-color: #063970;
+	border-radius: 10px;
+	color: white;	
+}
+main .click .line{
+	border: 2px solid #154c79;
+	position: absolute;
+	width: 100%;
+	top: 25px;
+	z-index: -1;
+}
+main .chon .clb{
+	width: 900px;
+	margin: auto;	
+	flex-wrap: wrap;
+}
+main .chon .clb a img{
+	margin-bottom: 10px;
+	margin-left: 2px;
+	margin-right: 2px;
+	border: 1px dotted #76b5c5;
+	border-radius: 10px;
+}
+.content .box .box2{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.content .box .box2 img{
+	width: 290px;
+	height: 290px;
+	margin-bottom: 5px;
+	border: 2px solid #1e81b0;
+	border-radius: 10px;
+	margin-top: 10px;
+}
+.content .box .box2 #img-barca:hover{
+	content: url('../images/clb/barca.jpg');
+}
+.content .box .box2 #img-psg:hover{
+	content: url('../images/clb/psg.jpg');
+}
+.content .box .box2 #img-chelsea:hover{
+	content: url('../images/clb/chelsea.jpg');
+}
+.content .box .box2 #img-inter:hover{
+	content: url('../images/clb/inter.jpg');
+}
+.content .box .box2 #img-milan:hover{
+	content: url('../images/clb/milan.jpg');
+}
+.content .box .box2 #img-atletico:hover{
+	content: url('../images/clb/atletico.jpg');
+}
+.content .box .box2 #img-arsenal:hover{
+	content: url('../images/clb/arsenal.jpg');
+}
+.content .box .box2 #img-mu:hover{
+	content: url('../images/clb/mu.jpg');
+}
+.content .box .box2 div{
+	text-align: center;	
+}
+.content .box .box2 div h6 a{
+	text-decoration: none;	
+}
+.content .box .box2 div h6 a span{
+	color: red;
+	font-size: 16px;
+}
+.main-bottom{	
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: 20px;
+}
+.main-bottom h3{	
+	margin-bottom: 0px;
+	color: gray;
+	font-weight: bold;
+	font-size: 24px;
+}
+.main-bottom ul{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+.main-bottom ul li{	
+	color: gray;	
+	padding-bottom: 3px;
+	padding-left: 0px;
+}
+.footer{
+	background-color: #03131C;
+}
+.footer ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	color: grey;
+	padding-top: 10px;
+	padding-left: 20px;
+}
+.footer ul h6{
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+.footer ul li ul{
+	padding: 0px;
+}
+.footer ul li ul li{
+	padding-bottom: 10px;
+}
+.footer ul li ul li a{
+	text-decoration: none;
+	color: grey;
+}
+.footer ul .row2, .row3{
+	padding-left: 160px;
+}
+

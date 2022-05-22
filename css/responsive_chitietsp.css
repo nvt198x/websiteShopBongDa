@@ -1,0 +1,259 @@
+
+@media all and (min-width: 0px) and (max-width: 767.98px) {
+	* {
+        box-sizing: border-box;
+    }
+	body{	
+		font-size: 9px;		
+	}
+	.wrapper{
+		width: 100%;		
+	}
+	.header .header-top{				
+		background: white;
+		justify-content: right;
+	}
+	.header .header-top .left{
+		display: none;
+	}
+	.header .header-top ul li{
+		line-height: 25px;
+	}	
+	.header .header-bottom ul li img{
+		display: none;
+	}
+	.header .header-bottom ul .search{
+		position: absolute;
+		top: -8px;
+		right: 30px;
+	}
+	.header .header-bottom ul .search select{
+		display: none;	
+	}
+	.header .header-bottom ul .search input{
+		width: 200px;
+		height: 15px;
+		background-color: white;
+	}
+	.header .header-bottom ul .search a{
+		color: grey;
+		margin-left: -15px;	
+		font-size: 10px;
+	}
+	.header .header-bottom ul .time{
+		display: none;
+	}
+	.header .header-bottom ul .right{
+		position: absolute;
+		top: -35px;
+		left: 20px;
+	}
+	.header .header-bottom ul .right a{	
+		font-size: 9px;	
+		color: red;
+	}	
+	#toggle{	
+		display: block;
+	}
+	nav{
+		display: none;
+		background-color: #DC6C16;
+		width: 100px;		
+	}
+	nav > ul{
+		display: inline;						
+	}
+	nav > ul > li{
+		border: 1px solid grey;	
+	}
+	nav > ul > li > a{
+		line-height: 20px;		
+		font-size: 9px;
+		border-left: none;	
+	}	
+	nav > ul > li > ul{		
+		margin-left: 100px;
+		width: 100px;
+		top: -45px;		
+	}
+	nav > ul > li > ul > li{
+		padding: 3px;		
+	}
+	nav > ul > li > ul > li > a{		
+		font-size: 9px;
+	}
+	main .box .box1{
+		margin: auto;
+	}
+	main .box .box1-top img{
+		width: 200px;
+		height: 200px;	
+	}	
+	main .box .box1-bottom img{
+		width: 50px;
+		height: 50px;		
+	}	
+	main .box .box2{
+		margin: auto;		
+		margin-top: 20px;
+	}
+	main .box .box2 h3{
+		font-size: 14px;
+	}
+	main .box .box2 p{
+		font-size: 10px;
+		padding-bottom: 0px;		
+	}	
+	main .box .box2 input{
+		width: 20px;
+		height: 20px;	
+	}
+	main .box .box2 #input-kq{		
+		font-size: 8px;
+		width: 30px;
+	}
+	main .box .box2 button{		
+		width: 120px;
+		height: 20px;
+		margin-bottom: 30px;
+	}	
+	main .box .box2 .box2-lienhe .face{
+		font-size: 10px;		
+		line-height: 16px;
+		width: 120px;				
+	}	
+	main .box .box2 .box2-lienhe .mobile{
+		font-size: 10px;		
+		line-height: 16px;	
+		width: 170px;
+	}	
+	main .box .box2 .icon{
+		font-size: 16px;
+		margin-left: 70px;
+	}	
+	.footer ul{	
+		padding-top: 5px;
+	}
+	.footer ul h6{
+		font-size: 10px;
+		margin: 0px;	
+		padding-bottom: 5px;
+	}
+	.footer ul li{
+		font-size: 9px;
+	}
+	.footer ul li ul li{
+		padding-bottom: 3px;	
+	}
+	.footer ul .row2, .row3{
+		padding-left: 10px;
+	}
+}
+
+
+@media all and (min-width: 768px) and (max-width: 991.98px) {
+	* {
+        box-sizing: border-box;
+    }
+	body{	
+		font-size: 11px;	
+	}	
+	.wrapper{
+		width: 100%;	
+	}
+	.header .header-top ul li{
+		line-height: 20px;
+	}
+	.header .header-bottom ul li img{
+		height: 80px;	
+	}
+	.header .header-bottom ul .search select{
+		width: 50px;
+		height: 20px;	
+	}
+	.header .header-bottom ul .search input{
+		width: 200px;
+		height: 20px;	
+	}
+	.header .header-bottom ul .search a{
+		color: grey;
+		margin-left: -20px;	
+		font-size: 10px;
+	}
+	.header .header-bottom ul .right a{	
+		font-size: 13px;	
+	}
+	nav > ul > li > a{
+		line-height: 30px;		
+		font-size: 13px;	
+	}		
+	nav > ul > li > ul > li{
+		padding: 5px;		
+	}
+	nav > ul > li > ul > li > a{		
+		font-size: 13px;
+	}	
+	main .box .box1{			
+		margin: auto;
+	}
+	main .box .box1-top img{
+		width: 350px;
+		height: 350px;	
+	}	
+	main .box .box1-bottom img{
+		width: 70px;
+		height: 70px;		
+	}	
+	main .box .box2{
+		margin: auto;
+		margin-top: 20px;
+	}
+	main .box .box2 h3{
+		font-size: 20px;
+	}
+	main .box .box2 p{
+		font-size: 14px;		
+	}		
+	main .box .box2 #input-kq{		
+		font-size: 10px;
+		width: 30px;
+	}	
+	main .box .box2 .box2-lienhe .face{
+		font-size: 14px;		
+		line-height: 25px;		
+	}	
+	main .box .box2 .box2-lienhe .mobile{
+		font-size: 14px;		
+		line-height: 25px;		
+	}	
+	main .box .box2 .icon{
+		font-size: 22px;
+		margin-left: 100px;
+	}	
+	.footer ul{	
+		padding-top: 10px;
+	}
+	.footer ul h6{
+		font-size: 14px;
+		margin: 0px;	
+	}
+	.footer ul li ul li{
+		padding-bottom: 3px;	
+	}
+	.footer ul .row2, .row3{
+		padding-left: 50px;
+	}
+
+}
+
+
+@media all and (min-width: 992px) and (max-width: 1200px) {
+	* {
+        box-sizing: border-box;
+    }
+	.wrapper{
+		width: 100%;	
+	}
+	
+}
+
