@@ -53,7 +53,11 @@
 		color: red;
 	}	
 	#toggle{		
-		display: block;		
+		display: block;	
+		width: 20px;	
+		margin-left: 10px;
+		padding: 0px;		
+		border: none;	
 	}
 	nav{
 		display: none;
@@ -81,7 +85,11 @@
 	}
 	nav > ul > li > ul > li > a{		
 		font-size: 9px;
-	}	
+	}
+	.slide{
+		border-top: 1px solid grey;
+		padding-top: 10px;
+	}
 	.content .box .box1{	
 		line-height: 20px;
 		font-size: 9px;	
